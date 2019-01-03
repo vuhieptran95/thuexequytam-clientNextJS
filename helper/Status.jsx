@@ -1,0 +1,6 @@
+const SUCCESS = "SUCCESS";
+const FAILED = "FAILED";
+const PROCESSING = "PROCESSING";
+
+const Status = { SUCCESS: SUCCESS, FAILED: FAILED, PROCESSING: PROCESSING };
+export default Status;

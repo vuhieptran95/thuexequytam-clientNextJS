@@ -1,0 +1,29 @@
+.card-custom-wide {
+  overflow: hidden;
+  border: 0;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-custom-wide-img {
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* First left setting is a fallback */
+.card-custom-wide .card-custom-avatar img {
+  border-radius: 30%;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  position: absolute;
+  top: 20px;
+  left: 43.3%;
+  left: calc(50% - 75px);
+  width: 250px;
+  height: 250px;
+}
+
+#customCard {
+  background-image: url("http://res.cloudinary.com/d3/image/upload/c_scale,q_auto:good,w_1110/trianglify-v1-cs85g_cc5d2i.jpg");
+}

@@ -1,0 +1,10 @@
+.toTop {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 10000;
+}
+
+.fab-size {
+  font-size: 20px;
+}

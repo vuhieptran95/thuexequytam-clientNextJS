@@ -1,0 +1,230 @@
+.card {
+  height: 100%;
+}
+
+.button-no-padding {
+  padding: 0;
+}
+
+.button-no-border {
+  border: none;
+}
+
+.no-padding-right {
+  padding-right: 0;
+}
+
+.no-padding-left {
+  padding-left: 0;
+}
+
+.modal-max-width {
+  max-width: 900px;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.margin-left-15 {
+  margin-left: 15px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.max-width-100 {
+  max-width: 100%;
+}
+.max-width-90 {
+  max-width: 90%;
+}
+.max-width-80 {
+  max-width: 80%;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+}
+.flex-container2 {
+  display: flex;
+}
+.flex-container3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#loader {
+  margin-top: -20px;
+}
+
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.inline {
+  display: inline;
+}
+
+.font-size-20 {
+  font-size: 2rem;
+}
+.font-size-19 {
+  font-size: 1.9rem;
+}
+.font-size-18 {
+  font-size: 1.8rem;
+}
+.font-size-17 {
+  font-size: 1.7rem;
+}
+.font-size-16 {
+  font-size: 1.6rem;
+}
+.font-size-15 {
+  font-size: 1.5rem;
+}
+.font-size-14 {
+  font-size: 1.4rem;
+}
+.font-size-13 {
+  font-size: 1.3rem;
+}
+.font-size-12 {
+  font-size: 1.2rem;
+}
+.font-size-11 {
+  font-size: 1.1rem;
+}
+.font-size-09 {
+  font-size: 0.9rem;
+}
+.font-size-08 {
+  font-size: 0.8rem;
+}
+.font-size-07 {
+  font-size: 0.7rem;
+}
+.font-size-06 {
+  font-size: 0.6rem;
+}
+.font-size-05 {
+  font-size: 0.5rem;
+}
+
+.font-weight-900 {
+  font-weight: 900;
+}
+.font-weight-800 {
+  font-weight: 800;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.font-weight-500 {
+  font-weight: 500;
+}
+.font-weight-400 {
+  font-weight: 400;
+}
+.font-weight-bold {
+  font-weight: bold;
+}
+.font-weight-bolder {
+  font-weight: bolder;
+}
+
+body {
+  background-image: url("https://storage.googleapis.com/thuexequytam-firebase/default-images/seamless_paper_texture.png");
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.bg {
+  background-image: url("https://storage.googleapis.com/thuexequytam-firebase/default-images/seamless_paper_texture.png");
+}
+
+.myjumbotron {
+  height: 75vh;
+  /* max-height: 80vh; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url("https://storage.googleapis.com/thuexequytam-firebase/default-images/deadsea2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: justify;
+}
+
+.myjumbotron h1 {
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.myjumbotron2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url("https://storage.googleapis.com/thuexequytam-firebase/default-images/slide2.jpg");
+}
+
+.info p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: antiquewhite;
+}
+
+.logo {
+  width: 100px;
+}
+
+@media (max-width: 575.98px) {
+  .myjumbotron {
+    text-align: justify;
+  }
+  .myjumbotron h1 {
+    font-size: 1.4rem;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  .info p {
+    font-size: 1.08rem;
+    line-height: 1.2;
+  }
+}
