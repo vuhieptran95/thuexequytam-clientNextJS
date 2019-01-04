@@ -38,15 +38,9 @@ app
     });
 
     if (dev) {
-      server.listen(3000, err => {
-        if (err) throw err;
-        console.log("> Ready on http://localhost:3000");
-      });
+      server.listen(process.env.PORT || 3000, () => console.log("Server started port 3000 dev mode"));
     } else {
-      server.listen(8000, err => {
-        if (err) throw err;
-        console.log("> Ready on http://localhost:8000");
-      });
+      server.listen(process.env.PORT || 8000, () => console.log("Server started port 8000 production mode"));
     }
   })
   .catch(ex => {
